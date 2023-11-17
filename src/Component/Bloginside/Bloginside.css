@@ -1,0 +1,30 @@
+.blog-indide-section{
+    width: 100%;
+}
+.image-blog img{
+width: 100%;
+border-radius: 10px;
+}
+.text-blog{
+    
+    display: flex;
+}
+.text-blog h3{
+    margin-top: 25px;
+   margin-left: 20px;
+}
+.text-blog img{
+    margin-top: 25px;
+    
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
+}
+.text-blog-span{
+    font-size: 12px;
+}
+.text-blog-plus-container{
+    display: grid;
+    /* grid-template-columns: 2fr 2fr; */
+    grid-template-columns: 2fr auto;
+}
