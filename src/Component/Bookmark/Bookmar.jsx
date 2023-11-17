@@ -1,5 +1,6 @@
 import React from 'react';
 import './Bookmark.css'
+import Innerbookmark from '../Innerbookmark/Innerbookmark';
 
 const Bookmar = () => {
     return (
@@ -11,8 +12,9 @@ const Bookmar = () => {
             <div className="bookmark-blogs-container">
                 <h2>Bookmarked Blogs: </h2>
 
-                <div className="bookmark-inner-container">
-                   <h3>hello there it is no lorem asdfj asdjf asks</h3>
+                <div className="bookmark-inner-container2">
+                  <Innerbookmark></Innerbookmark>
+                  <Innerbookmark></Innerbookmark>
                   
                    <h3></h3>
                    <h3></h3>

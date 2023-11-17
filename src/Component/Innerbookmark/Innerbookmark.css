@@ -1,0 +1,13 @@
+.bookmark-inner-container{
+    border-radius: 8px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+   
+    width: 280px;
+    padding: 10px 10px 10px 15px;
+    /* padding: 10px 10px 10px 15px; */
+    
+    background-color: rgba(199, 180, 155, 0.151);
+
+
+}
