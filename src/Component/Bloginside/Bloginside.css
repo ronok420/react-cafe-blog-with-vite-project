@@ -28,3 +28,6 @@ border-radius: 10px;
     /* grid-template-columns: 2fr 2fr; */
     grid-template-columns: 2fr auto;
 }
+.blog-title{
+    margin-bottom: 30px;
+}

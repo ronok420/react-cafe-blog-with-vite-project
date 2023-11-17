@@ -2,7 +2,7 @@ import React from 'react';
 import './Bookmark.css'
 import Innerbookmark from '../Innerbookmark/Innerbookmark';
 
-const Bookmar = () => {
+const Bookmark = () => {
     return (
         <div >
             <div className='bookmark-minute-container'>
@@ -29,4 +29,4 @@ const Bookmar = () => {
     );
 };
 
-export default Bookmar;
+export default Bookmark;

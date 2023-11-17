@@ -1,7 +1,10 @@
 import React from 'react';
 import './Bloginside.css'
 
-const Bloginside = ({blg}) => {
+const Bloginside = ({blg,handleCartToAdd}) => {
+
+
+    // const handleCartToAdd=handleCartToAdd;
     return (
         <div className='blog-indide-section'>
             <div className="image-blog">
@@ -20,13 +23,22 @@ const Bloginside = ({blg}) => {
             
                  </div>
                  <div className="readtime">
-                 <span className='text-blog-span' >{blg.publishdate}</span>
+                    <button onClick={()=>handleCartToAdd(blg)}>
+                        <span className='text-blog-span' >{blg.readtime} min read</span>
+                    </button>
+                 
 
                  </div>
 
 
 
 
+            </div>
+
+
+            <div className="blog-title">
+                <h1>{blg.blog_title}</h1>
+                <a href="">mark as read</a>
             </div>
            
 
