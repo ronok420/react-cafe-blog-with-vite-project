@@ -5,6 +5,9 @@ const Bloginside = ({blg,handleCartToAdd}) => {
 
 
     // const handleCartToAdd=handleCartToAdd;
+
+
+
     return (
         <div className='blog-indide-section'>
             <div className="image-blog">
@@ -23,7 +26,7 @@ const Bloginside = ({blg,handleCartToAdd}) => {
             
                  </div>
                  <div className="readtime">
-                    <button onClick={()=>handleCartToAdd(blg)}>
+                    <button >
                         <span className='text-blog-span' >{blg.readtime} min read</span>
                     </button>
                  
@@ -38,7 +41,10 @@ const Bloginside = ({blg,handleCartToAdd}) => {
 
             <div className="blog-title">
                 <h1>{blg.blog_title}</h1>
-                <a href="">mark as read</a>
+                <button onClick={()=>handleCartToAdd(blg)}>
+                                   mark as read
+
+                </button>
             </div>
            
 
